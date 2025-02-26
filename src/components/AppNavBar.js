@@ -11,10 +11,10 @@ function AppNavBar() {
 		<Navbar expand="lg" className='navbar fixed-top'>
 			<Container>
 				<Navbar.Brand id="navbar-brand"> 
-				<Link to="/" className="nav-link" style={{color:"white"}}>
-				<img src='scribbles.png' className="w-50" alt="logo"/>
-						</Link>	
-					 </Navbar.Brand>
+					<Link to="/" className="nav-link" style={{color:"white"}}>
+					<img src='scribbles.png' className="w-50" alt="logo"/>
+					</Link>	
+				 </Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse>
 					<Nav className="nav-text ml-auto">
